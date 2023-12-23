@@ -4,7 +4,7 @@ body
     font-family: Arial, Helvetica, sans-serif
 }
 
-/*começo da pagina*/
+
 
 
 
@@ -17,14 +17,14 @@ header
     justify-content: space-around;
 }
 
-.header-logo
+header .header-logo
 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.logo
+header .header-logo .logo
 {
     background-color: #B28756;
     height: 80px;
@@ -32,39 +32,39 @@ header
     border-radius: 40px;
 }
 
-.menu
+header .menu
 {
     display: flex;
     align-items: center;
 }
 
-.menu ul
+header .menu ul
 {
     display: flex;
     flex-direction:row;
     list-style-type: none;
 }
 
-.menu ul li
+header .menu ul li
 {
     font-size: 15px;
     padding: 8px;
 }
 
-#unico
+header .menu ul li #unico
 {
     color: #CCC;
     border-bottom: 5px solid #B28756;
 }
 
-.menu ul li a
+header .menu ul li a
 {
     color: #fff;
     text-decoration: none;
     padding: 36px 0px;
 }
 
-.menu ul li a:hover
+header .menu ul li a:hover
 {
     padding: 36px 0px;
     border-bottom: 5px solid #B28756;
@@ -73,21 +73,18 @@ header
 
 /*meio da pagina 1*/
 
-main
-{
-    background-color: black;
-}
+
 
 .main-img
 {
-    background-image: url("imagens-main-exposição/bg.jpg");
+    background-image: url("imagens-main-paisagem/bg.jpg");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: multiply;
     width: 100%;
-    height: 630px;
+    height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1156,7 +1153,7 @@ main
 /*meio da pagina 13*/
 .main-mapa
 {
-    background-image: url("mapa.jpg");
+    background-image: url("imagens-main-icon/mapa.jpg");
     background-position: center;
     background-size: cover;
     padding: 30px 0px 30px;
@@ -1288,5 +1285,3 @@ footer
     font-size: 12px;
     font-weight: 600;
 }
-
-
