@@ -1,0 +1,29 @@
+@media (max-width:800px)
+{
+    header .menu ul li
+    {
+        display: none ;
+    }
+
+    header 
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .header-logo 
+    {
+        margin-left: 30px;
+    }
+
+    header .menu img 
+    {
+        display: flex;
+    }
+
+    main .main-fut .main-fut
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
