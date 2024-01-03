@@ -82,7 +82,7 @@ header .menu img
 
 
 
-.main-img
+main .main-img
 {
     background-image: url("imagens-main-paisagem/bg.jpg");
     background-position: bottom;
@@ -98,7 +98,7 @@ header .menu img
     justify-content: center;
 }
 
-.main-info
+main .main-img .main-info
 {
     display: flex;
     flex-direction: column;
@@ -106,27 +106,26 @@ header .menu img
     margin-top: 120px;
 }
 
-.main-info h1
+main .main-img .main-info h1
 {
     margin: 0px;
     font-size: 55px;
     color: white;
 }
 
-#marrom
+main .main-img .main-info #marrom
 {
     color: #bd8b53;
 }
 
-.main-info1 h2
+main .main-img .main-info1 h2
 {
     font-size: 20px;
     color: white;
     margin-bottom: 30px;
 }
 
-
-.main-info2 a
+main .main-img .main-info2 a
 {
     color: #fff;
     text-decoration: none;
@@ -138,7 +137,7 @@ header .menu img
     font-weight: bolder;
 }
 
-.main-point
+main .main-img .main-point
 {
     display: flex;
     flex-direction: row;
@@ -147,7 +146,7 @@ header .menu img
     justify-content: center;
 }
 
-.bolinha-principal
+main .main-img .main-point .bolinha-principal
 {
     height: 13px;
     width: 13px;
@@ -158,7 +157,7 @@ header .menu img
     background-color: #B28756;
 }
 
-.bolinha 
+main .main-img .main-point .bolinha 
 {
     height: 13px;
     width: 13px;
@@ -169,16 +168,17 @@ header .menu img
 }
 
 /*meio da pagina 2*/
-.main-fut
+main .main-fut
 {
     padding: 60px 0px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     background-color: #F7F7F7;
     
 }
 
-.fut-up
+main .main-fut .fut-up
 {
     display: flex;
     flex-direction: column;
@@ -186,13 +186,13 @@ header .menu img
     font-size: 13px;
 }
 
-.fut-up1
+main .main-fut .fut-up .fut-up1
 {
     font-size: 23px;
     font-weight: bolder;
 }
 
-.fut-up2
+main .main-fut .fut-up .fut-up2
 {
     font-size: 13px;
     margin: 10px 0px 40px 0px;
@@ -200,7 +200,7 @@ header .menu img
     font-weight: bolder;
 }
 
-.fut-meio
+main .main-fut .fut-meio
 {
     display: flex;
     flex-direction: row;
@@ -208,13 +208,13 @@ header .menu img
     max-width: 1100px;
 }
 
-.fut-info
+main .main-fut .fut-meio .fut-info
 {
     height: 300px;
     margin-right: 10px;
 }
 
-.fut-info p
+main .main-fut .fut-meio .fut-info p    
 {
     margin: 0px;
     font-size: 14px;
@@ -224,14 +224,14 @@ header .menu img
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.link-fut
+main .main-fut .fut-meio .fut-info .link-fut
 {
     margin: 50px 0px 0px 0px;
     display: flex;
     align-items: center;
 }
 
-.link-fut a
+main .main-fut .fut-meio .fut-info .link-fut a
 {
     background-color: #B28756;
     font-size: 12px;
@@ -243,20 +243,20 @@ header .menu img
     color: white;
 }
 
-.img-fut
+main .main-fut .fut-meio .img-fut
 {
     width: 529px;
     
 }
 
-.img-fut img
+main .main-fut .fut-meio .img-fut img
 {
     box-shadow: 0px 5px 10px #333;
 }
 
 /*meio da pagina 3*/
 
-.main-services
+main .main-services
 {
     background-color: black;
     padding: 50px 0px;
@@ -264,7 +264,7 @@ header .menu img
     flex-direction: column;
 }
 
-.serviços
+main .main-services .serviços
 {
     font-weight: bolder;
     font-size: 20px;
@@ -274,7 +274,7 @@ header .menu img
     color: white;
 }
 
-.serviços-1
+main .main-services .serviços-2
 {
     color: #cccccc;
     font-size: 12px;
@@ -285,7 +285,7 @@ header .menu img
     justify-content: center;
 }
 
-.semblantes
+main .main-services .semblantes
 {
     background-color: black;
     display: flex;
@@ -293,13 +293,13 @@ header .menu img
     justify-content: center; 
 }
 
-.semblantes-1
+main .main-services .semblantes .semblantes-1
 {
     background-color: black; 
     display: flex;
 }
 
-.medalha
+main .main-services .semblantes .semblantes-1 .medalha
 {
     padding: 15px 25px 15px 25px;
     display: flex;
@@ -309,21 +309,7 @@ header .menu img
     text-align: center
 }
 
-.medalha h4
-{
-    font-size: 18px;
-    margin: 20px 0px 0px;
-    color: white;
-}
-
-.medalha p
-{
-    font-size: 13px;
-    margin: 10px 0px 0px;
-    color: #999999;
-}
-
-.estrela
+main .main-services .semblantes .semblantes-1 .estrela
 {
     padding: 15px 25px 15px 25px;
     display: flex;
@@ -333,21 +319,7 @@ header .menu img
     text-align: center;
 }
 
-.estrela h4
-{
-    font-size: 18px;
-    margin: 10px 0px 0px;
-    color: white;
-}
-
-.estrela p
-{
-    font-size: 13px;
-    margin: 10px 0px 0px;
-    color: #999999;
-}
-
-.relogio
+main .main-services .semblantes .semblantes-1 .relogio
 {
     padding: 15px 25px 15px 25px;
     display: flex;
@@ -357,21 +329,7 @@ header .menu img
     text-align: center;
 }
 
-.relogio h4
-{
-    font-size: 18px;
-    margin: 10px 0px 0px;
-    color: white;
-}
-
-.relogio    p
-{
-    font-size: 13px;
-    margin: 10px 0px 0px;
-    color: #999999;
-}
-
-.balao
+main .main-services .semblantes .semblantes-1 .balao
 {
     padding: 15px 25px 15px 25px;
     display: flex;
@@ -382,20 +340,22 @@ header .menu img
     text-align: center;
 }   
 
-.balao h4
+main .main-services .semblantes .semblantes-1 h4
 {
     font-size: 18px;
-    margin: 10px 0px 0px;
+    margin: 20px 0px 0px;
     color: white;
 }
 
-/*meio da pagina 4*/
-.balao p
+main .main-services .semblantes .semblantes-1 p
 {
     font-size: 13px;
     margin: 10px 0px 0px;
-    color: #999999;
+    color: #999999; 
 }
+
+
+/*meio da pagina 4*/
 
 .main-projects
 {
